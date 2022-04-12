@@ -94,7 +94,7 @@ Application::Application(int &argc, char **argv)
 
     // Translations
     QLocale locale;
-    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cutefish-settings/translations/").arg(locale.name());
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/settings/translations/").arg(locale.name());
     if (QFile::exists(qmFilePath)) {
         QTranslator *translator = new QTranslator(QApplication::instance());
         if (translator->load(qmFilePath)) {

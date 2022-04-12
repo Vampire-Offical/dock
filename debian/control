@@ -1,4 +1,4 @@
-Source: cutefish-settings
+Source: settings
 Section: devel
 Priority: optional
 Maintainer: CutefishOS <support@cutefishos.com>
@@ -25,7 +25,7 @@ Build-Depends: cmake,
 Standards-Version: 4.5.0
 Homepage: https://cutefishos.com
 
-Package: cutefish-settings
+Package: settings
 Architecture: any
 Depends: qml-module-qtquick-controls2,
          qml-module-qtquick2,

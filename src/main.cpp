@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
     Application app(argc, argv);
 
-    app.setWindowIcon(QIcon::fromTheme("cutefish-settings"));
+    app.setWindowIcon(QIcon::fromTheme("settings"));
 
     return 0;
 }

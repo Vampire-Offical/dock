@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(PROJECT_NAME cutefish-settings)
+set(PROJECT_NAME settings)
 project(${PROJECT_NAME})
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -113,7 +113,7 @@ add_dependencies(${PROJECT_NAME} translations)
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 install(FILES
-    cutefish-settings.desktop
+    settings.desktop
     DESTINATION /usr/share/applications/
     COMPONENT Runtime
 )
